@@ -1,0 +1,103 @@
+body{
+font-family: 'Work Sans', sans-serif;
+margin:0 auto;
+width:960px;
+}
+p{
+text-align:justify;
+}
+h1,h2{
+text-align: center;
+}
+h1{
+font-family: Cambria;
+}
+h5{
+font-size: medium;
+}
+ul{
+list-style-image:url("Images/animation.gif");
+}
+a:link{
+color:red;
+text-decoration:none;
+font-weight:bold;
+}
+a:visited{
+color:green;
+font-weight:bold;
+}
+a:hover{
+color:blue;
+}
+nav ul{
+list-style-type:none;
+padding:0;
+}
+nav li{
+display:inline;
+float:left;
+}
+nav a:link,nav a:visited{
+background-color:#000000;
+color:white;
+display:block;
+width:192px;
+text-align:center;
+padding:15px 0;
+}
+nav a:hover{
+color:blue;
+}
+aside{
+width:280px;
+float:right;
+background-color:lightgreen;
+text-align:center;
+font-weight:bold;
+padding:10px;
+margin-left:10px;
+}
+.photo-right{
+float:right;
+}
+header{
+background-image:url("Images/Recycling-Header.jpg");
+height:100px;
+margin-bottom:100px;
+}
+header h1{
+color:rgba(0,0,0,.8);
+margin-left:30px;
+margin-top:80px;
+margin-top:80px;
+font-size:50px;
+}	
+footer{
+margin:60px 0;
+}
+footer nav a:link,footer nav a:visited{
+color:darkgray;
+text-decoration:none;
+width:192px;
+text-align:center;
+background-color:green;
+}
+footer nav a:hover{
+color:orange;
+}
+td,th{
+width:20%
+padding:5px;
+}
+label{
+display:block;
+width:200px;
+float:left;
+text-align:right;
+margin:10px 5px;
+clear:left;
+input,select,textarea{
+margin:5px 5px;
+vertcal-align:middle;
+}

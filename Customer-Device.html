@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Device Information</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+<style>
+.button {
+  background-color:white;
+  border:solid;
+  color:black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display:block;
+  margin:auto;
+  width:100px;
+  border-radius:10px;
+}
+.button:hover{
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+body{
+  background-image: url("Images/white.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.dropdown-content {
+  display:none;
+  position: absolute;
+  background-color:#E1DBDA;
+  color:#8C1616;
+  min-width:80px;
+  min-height:5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 20px 20px 20px 20px;
+  z-index: 1;
+  border-radius:15px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</style>
+<link rel = "icon" href =  
+"Images/pc.png" 
+        type = "image/x-icon"> 
+</head>
+<body>
+<header>
+<h1>Recycle Gadgets</h1>
+<nav>
+<ul>
+<li><a href="Index.html">Home</a></li>
+<li><a href="Need of Recycling.html">Need of Recycling</a></li>
+<li><a href="Why-Recycle.html">Why Recycle ?</a></li>
+<li><a href="Tables.html">Recycling Process</a></li>
+<li><a href="Customer-Device.html">Device Information</a></li>
+</ul>
+</nav>
+</header>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+<h1 style="color:green;">Customer and Device Information</h1>
+<aside>
+<figure>
+<img src="Images/erecycle.jpg" alt="Electronics Recycling"/>
+</figure>
+</aside>
+<form method="post">
+
+
+
+<fieldset>
+<legend> Customer Information </legend>
+<label for="name">Your Name:</label>
+</br></br>
+
+<input type="text" name="Customername" placeholder="Enter your Full Name" autofocus required id="name" size="40"/>
+</br></br>
+<label for="email">Email Address:</label>
+</br></br>
+<input type="email" name="Customeremail" placeholder="Enter a Valid Email Id" required id="email" size="40"/>
+</br></br>
+<label for="contact">Contact Number:</label>
+</br></br>
+<input type="number" name="Customercontact" placeholder="Enter your Contact Number" id="contact"/>
+</br>
+</br>
+<label for="location">Your Location:</label>
+</br></br>
+<textarea name="message"id="location" cols="40" rows="6"></textarea>
+</fieldset>
+</br>
+</br>
+<fieldset>
+<legend> Product Information </legend>
+Type of Gadget you like to Recycle:
+</br></br>
+<select name="Gadgets">
+<option value=""></option>
+<option value="o1">Smart Phones</option>
+<option value="o2">Featured Phones</option>
+<option value="o3">Laptops</option>
+<option value="o4">Desktops</option>
+<option value="o5">Fitness Bands/Smart Watches</option>
+<option value="o6">Cameras</option>
+</select>
+</br></br>
+Brand:</br>
+<input type="text" name="Devicebrand"size="30"placeholder="Enter Device Brand"/>
+</br></br>
+<div class="dropdown">
+<span>Varient:</span>
+ <div class="dropdown-content">
+ <p>Appicable for Smartphones Only</p>
+  </div>
+</div>
+</br></br>
+<input type="radio" name="radio" value="r1"/>2 Gb/32 Gb</br>
+<input type="radio" name="radio" value="r2"/>3 Gb/32 Gb</br>
+<input type="radio" name="radio" value="r3"/>4 Gb/64 Gb</br>
+<input type="radio" name="radio" value="r4"/>6 Gb/64 Gb</br>
+<input type="radio" name="radio" value="r5"/>6 Gb/128 Gb</br>
+<input type="radio" name="radio" value="r6"/>8 Gb/128 Gb</br>
+</br>
+Under Warrenty?:
+</br></br>
+<input type="radio" name="Yes" value=""/>Yes</br>      
+<input type="radio" name="Yes"/>No</br>
+</br>
+
+Condition of the Gadget:</br>
+</br>
+<input type="radio" name="radio" value="Dead"/>Dead</br>
+<input type="radio" name="radio" value="Damaged"/>Damaged</br>
+<input type="radio" name="radio" value="Minor Scratches/Dents"/>Minor Scratches/Dents</br>
+<input type="radio" name="radio" value="Flawless"/>Flawless</br>
+
+</fieldset>
+<br>
+<br>
+
+<a href="Submit.html" class="button">Submit</a>
+</form>
+
+<h2 style="text-align:center;font-size:1.4rem"><a href="Contact.html">Contact Us..</a></h3>
+<footer>
+<nav>
+<ul>
+<li><a href="Index.html">Home</a></li>
+<li><a href="Need of Recycling.html">Need of Recycling</a></li>
+<li><a href="Why-Recycle.html">Why Recycle ?</a></li>
+<li><a href="Tables.html">Recycling Process</a></li>
+<li><a href="Customer-Device.html">Device Information</a></li>
+</ul>
+</nav>
+</footer>
+</body>
+</html>
